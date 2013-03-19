@@ -14,3 +14,6 @@ LOCAL_PACKAGE_NAME := SoundRecorderTests
 LOCAL_INSTRUMENTATION_FOR := SoundRecorder
 
 include $(BUILD_PACKAGE)
+
+# Bundle into ATF package
+ATF_TEST_PACKAGES += SoundRecorderTests
